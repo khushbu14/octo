@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
 for i in range(10):
-	print "hello"
+	if i%2==0:
+		print "hello even"
+	else:
+		print "hello odd"
 
