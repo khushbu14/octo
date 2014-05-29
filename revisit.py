@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-for i in range(10):
-	if i%2==0:
-		print "hello even"
-	
+def prange(n):
+	for i in range(n):
+		print "%d: hello" % (i)
+
+prange(10)
 
